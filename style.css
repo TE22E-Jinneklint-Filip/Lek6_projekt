@@ -1,38 +1,66 @@
 body {
   display: grid;
   grid-template-columns: 3fr 2fr;
-  grid-template-rows: 1fr 2fr 3fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr 3fr;
   background-color: #fdf800;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font: inherit;
+  font-size: 100%;
 }
 
 header {
   background-color: #03d8f3;
   border: solid black;
   border-radius: 15px;
+  margin: 2%;
+  padding: 2%;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#img_Kebabtallrik {
+  display: flex;
+  grid-column: 2/3;
+  grid-row: 1/3;
+  background-color: #03d8f3;
+  border: solid black;
+  border-radius: 15px;
   margin: 5%;
-}
-
-h1{
-    text-align: center;
-    text-shadow: 2px 2px 5px red;
-}
-
-#img_Kebabtallrik{
-    grid-column: 2/3;
-    grid-row: 1/3;
-    background-color: #03d8f3;
-    border: solid black;
-    border-radius: 15px;
-    margin: 5%;
-    align-items: center;
+  align-items: center;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 50%;
-  }
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 75%;
+}
+
+.info {
+  background-color: #03d8f3;
+  border: solid black;
+  border-radius: 15px;
+  margin: 7%;
+  padding: 12%;
+}
+
+h2{  
+  text-align: center;
+  justify-content: center;
+}
+
+.ingredienser{
+  background-color: #03d8f3;
+  border: solid black;
+  border-radius: 15px;
+  margin-bottom: 7%;
+}
+
+.img_Kebabtallrik2{
+  background-color: #03d8f3;
+  border: solid black;
+  border-radius: 15px;
+}
