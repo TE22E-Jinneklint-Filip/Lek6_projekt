@@ -1,7 +1,7 @@
 body {
   display: grid;
   grid-template-columns: 3fr 2fr;
-  grid-template-rows: 1fr 3fr 1fr 3fr;
+  grid-template-rows: 1fr 1fr 0, 5fr 2fr 1fr;
   background-color: #fdf800;
   font: inherit;
   font-size: 100%;
@@ -47,20 +47,26 @@ h1 {
   padding: 12%;
 }
 
-h2{  
+h2 {
   text-align: center;
   justify-content: center;
 }
 
-.ingredienser{
+.ingredienser {
   background-color: #03d8f3;
   border: solid black;
   border-radius: 15px;
-  margin-bottom: 7%;
+  margin-bottom: 30%;
 }
 
-.img_Kebabtallrik2{
+.img_Kebabtallrik2 {
+  display: flex;
   background-color: #03d8f3;
   border: solid black;
   border-radius: 15px;
+  margin: 5%;
+  justify-content: space-between;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  padding: 4%;
 }
