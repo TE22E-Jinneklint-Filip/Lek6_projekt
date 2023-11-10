@@ -1,26 +1,20 @@
 body {
   display: grid;
-  grid-template-columns: 6fr 4fr;
-  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 2fr 3fr;
   background-color: #fdf800;
-  font: inherit;
-  font-size: 100%;
-  background-repeat: repeat;
 }
 
 header {
   background-color: #03d8f3;
   border: solid black;
-  border-radius: 15px;
+  border-radius: 4%;
   margin: 2%;
-  padding: 2%;
 }
 
 h1 {
   text-align: center;
   text-shadow: 2px 2px 5px red;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 7%;
 }
 
 #img_Kebabtallrik {
@@ -29,12 +23,12 @@ h1 {
   grid-row: 1/3;
   background-color: #03d8f3;
   border: solid black;
-  border-radius: 15px;
-  margin: 5%;
+  border-radius: 2%;
+  margin: 2%;
   align-items: center;
 }
 
-.center {
+#img_Kebabtallrik img {
   margin-left: auto;
   margin-right: auto;
   width: 75%;
@@ -44,7 +38,7 @@ h1 {
 .info {
   background-color: #03d8f3;
   border: solid black;
-  border-radius: 15px;
+  border-radius: 2%;
   margin: 7%;
   padding: 12%;
 }
@@ -57,42 +51,60 @@ h2 {
 .lista {
   background-color: #03d8f3;
   border: solid black;
-  border-radius: 15px;
-  margin-top: 35%;
+  border-radius: 2%;
+  margin-top: 50%;
+  margin-bottom: 15%;
 }
 
 .img_Kebabtallrik2 {
   display: flex;
   background-color: #03d8f3;
   border: solid black;
-  border-radius: 15px;
+  border-radius: 2%;
   margin: 5%;
   justify-content: space-between;
-  grid-column: 2/3;
+  grid-column: 1/3;
   grid-row: 3/4;
   padding: 4%;
 }
 
+#img_Kebabtallrik2 img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 75%;
+}
 .ingredienser {
   padding-top: 20%;
   background-color: #03d8f3;
   border: solid black;
-  border-radius: 15px;
-  height: 800px;
+  border-radius: 4%;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 250%;
-  text-align: center ;
+  text-align: center;
 }
 
 .GörSåHär {
-  padding-top: 20%;
+  padding-top: 15%;
   background-color: #03d8f3;
   border: solid black;
-  border-radius: 15px;
-  height: 800px;
+  border-radius: 4%;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 250%;
-  text-align: center ;
+  text-align: center;
+}
+
+footer {
+  margin-top: 2%;
+  background-color: #03d8f3;
+  border: solid black;
+  border-radius: 4%;
+  grid-column: 1/3;
+}
+
+h3{
+text-align: center;
+color: red;
 }
