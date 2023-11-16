@@ -31,8 +31,8 @@ h1 {
 #img_Kebabtallrik img {
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
-  height: 300px;
+  width: 75%;
+  height: 75%;
 }
 
 .info {
@@ -71,8 +71,8 @@ h2 {
 #img_Kebabtallrik2 img {
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
-  height: 250px;
+  width: 75%;
+  height: 75%;
 }
 .ingredienser {
   padding-top: 20%;
